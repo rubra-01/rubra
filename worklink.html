@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WorkLink by Rubra</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="page-worklink">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html#top" class="brand">
+        <img src="assets/images/rubra small dark white and red logo ehnanced.png" alt="Rubra logo" class="brand-logo" />
+        <span class="brand-name">Rubra</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html#top">Home</a>
+        <a href="worklink.html">WorkLink</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-worklink">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="store-header">
+            <div class="store-meta">
+              <div class="store-app-row">
+                <img src="assets/images/worklink-icon-bule.png" alt="WorkLink icon" class="store-icon" />
+                <div class="store-app-text">
+                  <h1 class="store-app-name">WorkLink</h1>
+                  <p class="store-app-dev">by Rubra</p>
+                </div>
+              </div>
+              <div class="download-buttons store-download">
+                <a href="worklink.apk" class="btn btn-download" download>
+                  <span>Download WorkLink app</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="worklink-card">
+            <div class="worklink-preview">
+              <img src="assets/images/worklink-icon-bule.png" alt="WorkLink icon" class="worklink-icon" />
+              <div class="preview-text">
+                <h3>About WorkLink</h3>
+                <p>
+                  WorkLink is a modern work platform that helps daily wage workers and employers
+                  connect around nearby opportunities through one focused, easy-to-use app.
+                </p>
+              </div>
+            </div>
+            <p class="coming-soon">Built and maintained by Rubra in India.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-inner two-column">
+        <div>
+          <h2>For workers</h2>
+          <p>
+            WorkLink is designed for daily wage workers and skilled tradespeople who
+            want to find nearby opportunities without complexity. You can create a
+            simple profile, highlight your skills, and stay visible to employers who
+            are actively looking for reliable workers.
+          </p>
+          <ul class="feature-list">
+            <li><span>Create a profile with your skills, description, and location</span></li>
+            <li><span>Discover local work posted by nearby employers</span></li>
+            <li><span>See clear work details before deciding to reach out</span></li>
+            <li><span>Stay in control of how and when employers can contact you</span></li>
+          </ul>
+        </div>
+        <div>
+          <h2>For employers</h2>
+          <p>
+            Employers &mdash; including homeowners, small businesses, and contractors &mdash;
+            can use WorkLink to quickly reach nearby workers. The focus is on making
+            it easy to find the right person for the work without middlemen or
+            complicated processes.
+          </p>
+          <ul class="feature-list">
+            <li><span>Post clear work requirements for local tasks and projects</span></li>
+            <li><span>Browse worker profiles with skills, descriptions, and locations</span></li>
+            <li><span>Reach workers directly to discuss work and availability</span></li>
+            <li><span>Build ongoing relationships with trusted local workers</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container section-inner">
+        <h2>How WorkLink fits into Rubra</h2>
+        <p>
+          WorkLink is the first product from Rubra, built around a clear idea:
+          connect workers with local opportunities in a simple, trustworthy way. It
+          focuses on people in Kashmir but is designed so the same experience can
+          work in many regions.
+        </p>
+        <p>
+          The app is guided by values such as trust, accessibility, community, and
+          empowerment. It is part of a wider ecosystem of products from Rubra that
+          are built to feel simple and dependable.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-inner two-column contact">
+        <div>
+          <h2>Support &amp; feedback</h2>
+          <p>
+            If you have questions about WorkLink, find any issues with the app, or
+            want to suggest improvements, you can reach out directly to Rubra.
+          </p>
+          <div class="contact-block">
+            <h3>Rubra</h3>
+            <p>
+              Email:
+              <a href="mailto:rubra.001@gmail.com">rubra.001@gmail.com</a>
+              <br />
+              Instagram:
+              <a href="https://instagram.com/rubra.in" target="_blank" rel="noopener noreferrer">@rubra.in</a>
+            </p>
+          </div>
+        </div>
+        <div class="contact-note">
+          <div class="card accent">
+            <h3>Built with care</h3>
+            <p>
+              WorkLink reflects Rubra's approach to digital products: clear, focused,
+              and designed to be genuinely helpful for everyday work.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span>&copy; <span id="year"></span> Rubra. All rights reserved.</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://instagram.com/rubra.in" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span class="dot">&bull;</span>
+        <a href="mailto:rubra.001@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
