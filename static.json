@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/*", "destination": "/index.html" },
+    { "source": "/worklink", "destination": "/worklink.html" }
+  ],
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "type": 301 },
+    { "source": "/worklink.html", "destination": "/worklink", "type": 301 }
+  ]
+}
