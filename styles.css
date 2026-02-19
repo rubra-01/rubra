@@ -543,27 +543,7 @@ h3 {
   overflow: hidden;
 }
 
-.btn-download::before {
-  content: "";
-  position: absolute;
-  inset: -2px;
-  border-radius: inherit;
-  background: conic-gradient(from 0deg, #48d0ff, #1c86fc, #ffffff, #48d0ff);
-  opacity: 0.9;
-  filter: blur(2px);
-  animation: btn-glow 3s linear infinite;
-  z-index: -1;
-}
 
-.btn-download::after {
-  content: "";
-  position: absolute;
-  inset: 1px;
-  border-radius: inherit;
-  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.12), transparent 70%);
-  opacity: 0.8;
-  z-index: -1;
-}
 
 .btn-download span {
   position: relative;
@@ -584,14 +564,7 @@ h3 {
   margin-top: 0.9rem;
 }
 
-@keyframes btn-glow {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 
 @media (max-width: 900px) {
   .header-inner {
